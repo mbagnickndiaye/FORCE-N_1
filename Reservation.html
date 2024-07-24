@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation ou Commande</title>
+    <link rel="stylesheet" href="Reservation.css">
+</head>
+<body>
+    <!-- Section Réservation et Commande -->
+    <section id="reservation">
+        <h2>Réservez une table</h2>
+        <p>Venez savourer un moment d’exception !Réservez dès maintenant et vivez une expérience culinaire mémorable.</p>
+        <form>
+            <label for="fullname">Nom et Prénom:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Heure:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="people">Nombre de personnes:</label>
+            <input type="number" id="people" name="people" required>
+
+            <label for="phone">Téléphone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="comments">Commentaires ou demandes spéciales:</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Écrivez vos commentaires ou demandes spéciales ici..."></textarea>
+
+            <button type="submit">Soumettre</button>
+        </form>
+    </section>
+</body>
+</html>
