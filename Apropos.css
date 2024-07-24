@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section#apropos {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 50%;
+}
+
+.image-row {
+    display: flex;
+    gap: 20px;
+}
+
+.image-row img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about-text {
+    max-width: 40%;
+    text-align: right;
+}
+
+.about-text h2 {
+    font-size: 3.5em;
+    margin-bottom: 50px;
+}
+
+.about-text p {
+    font-size: 1.2em;
+    color: #555;
+}

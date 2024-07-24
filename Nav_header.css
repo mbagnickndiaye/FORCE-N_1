@@ -14,7 +14,7 @@ header {
 /* Conteneur pour l'image d'en-tête */
 .header-image {
     width: 100%; /* Largeur à 100% du conteneur parent */
-    height: 600px; /* Hauteur fixe */
+    height: 800px; /* Hauteur fixe */
     position: relative; /* Positionnement relatif pour le texte superposé */
     background: url('path/to/header-image.PNG') no-repeat center center; /* Image d'arrière-plan centrée */
     background-size: cover; /* Image d'arrière-plan recouvrant tout le conteneur */
@@ -69,7 +69,7 @@ header {
     justify-content: space-between; /* Espacement entre les éléments */
     align-items: center; /* Alignement vertical des éléments */
     padding: 10px 10px; /* Padding interne */
-    background: rgba(0, 0, 0, 0.7); /* Couleur de fond semi-transparente */
+    background: rgb(12, 4, 4); /* Couleur de fond semi-transparente */
     position: absolute; /* Positionnement absolu par rapport à l'en-tête */
     top: 0; /* Alignement en haut */
     width: 100%; /* Largeur à 100% du conteneur parent */
