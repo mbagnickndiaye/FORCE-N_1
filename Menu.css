@@ -14,7 +14,7 @@ body {
     max-width: 1200px; /* Largeur maximale du conteneur */
     margin: 0 auto; /* Centre le conteneur horizontalement */
     padding: 20px; /* Espace intérieur du conteneur */
-    background-color: #af9e9e; /* Couleur de fond du conteneur */
+    background-color: #e8eced; /* Couleur de fond du conteneur */
     border-radius: 10px; /* Coins arrondis pour le conteneur */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère autour du conteneur */
 }
@@ -31,10 +31,16 @@ h1 {
 
 /* Styles du titre secondaire pour le menu */
 h2 {
-    color: #e81008; /* Couleur du texte du sous-titre */
+    color: #0b0404; /* Couleur du texte du sous-titre */
     margin-top: 20px; /* Marge au-dessus du titre */
+    font-size: 3.5em;
+    margin-bottom: 20px;
 }
-
+p {
+    font-size: 1em;
+    margin-bottom: 30px;
+    color: #b7c3c6;
+}
 /* Liste des liens du menu */
 .menu-list {
     list-style-type: none; /* Supprime les puces de la liste */

@@ -12,15 +12,14 @@ section#apropos {
 
 section#apropos h2 {
     font-size: 3.5em;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 section#apropos p {
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: 30px;
-    color: #555;
+    color: #b7c3c6;
 }
-
 .content {
     display: flex;
     justify-content: center;
