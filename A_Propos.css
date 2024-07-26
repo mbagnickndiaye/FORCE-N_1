@@ -1,0 +1,49 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8eced;
+}
+.container {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    width: 50%;
+}
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.content {
+    width: 45%;
+    text-align: center;
+}
+.content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.content h3 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.content p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.content button {
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}

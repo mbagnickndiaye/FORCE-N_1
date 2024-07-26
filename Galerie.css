@@ -1,60 +1,71 @@
+/* Style global du corps de la page */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Police de caractères utilisée */
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Supprime les espacements par défaut */
 }
 
+/* Style pour la section "à propos" */
 section#apropos {
-    padding: 20px;
-    background-color: #f8f8f8;
-    text-align: center; /* Center the text */
+    padding: 20px; /* Espacement interne */
+    background-color: #f8f8f8; /* Couleur de fond */
+    text-align: center; /* Centre le texte */
 }
 
+/* Style pour le titre de la section "à propos" */
 section#apropos h2 {
-    font-size: 3.5em;
-    margin-bottom: 15px;
+    font-size: 3.5em; /* Taille de la police du titre */
+    margin-bottom: 15px; /* Espacement sous le titre */
 }
 
+/* Style pour les paragraphes dans la section "à propos" */
 section#apropos p {
-    font-size: 1em;
-    margin-bottom: 30px;
-    color: #b7c3c6;
+    font-size: 1em; /* Taille de la police du texte */
+    margin-bottom: 30px; /* Espacement sous le paragraphe */
+    color: #b7c3c6; /* Couleur du texte */
 }
+
+/* Conteneur principal pour le contenu */
 .content {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 20px;
+    display: flex; /* Utilise Flexbox pour la disposition */
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: flex-start; /* Aligne les éléments en haut */
+    gap: 20px; /* Espacement entre les éléments */
 }
 
+/* Conteneur pour les images "à propos" */
 .about-images {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center the rows */
-    gap: 20px;
+    display: flex; /* Utilise Flexbox pour la disposition */
+    flex-direction: column; /* Dispose les éléments en colonne */
+    align-items: center; /* Centre les lignes */
+    gap: 20px; /* Espacement entre les lignes d'images */
 }
 
+/* Conteneur pour les lignes d'images */
 .image-row {
-    display: flex;
-    gap: 20px;
+    display: flex; /* Utilise Flexbox pour la disposition */
+    gap: 20px; /* Espacement entre les images */
 }
 
+/* Style pour les images dans les lignes */
 .image-row img {
-    width: 400px; /* Adjust the size as needed */
-    height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
+    width: 400px; /* Largeur de l'image */
+    height: 400px; /* Hauteur de l'image */
+    object-fit: cover; /* Ajuste l'image pour couvrir le conteneur */
+    border-radius: 10px; /* Coins arrondis */
 }
 
+/* Conteneur pour les images supplémentaires */
 .additional-images {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    display: flex; /* Utilise Flexbox pour la disposition */
+    flex-direction: column; /* Dispose les éléments en colonne */
+    gap: 20px; /* Espacement entre les images supplémentaires */
 }
 
+/* Style pour les images supplémentaires */
 .additional-images img {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
+    width: 400px; /* Largeur de l'image */
+    height: 400px; /* Hauteur de l'image */
+    object-fit: cover; /* Ajuste l'image pour couvrir le conteneur */
+    border-radius: 10px; /* Coins arrondis */
 }

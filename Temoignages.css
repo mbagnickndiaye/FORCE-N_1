@@ -1,0 +1,71 @@
+/* Styles généraux pour le corps de la page */
+body {
+    font-family: Arial, sans-serif; /* Police de la page */
+    background: url('g1.PNG') no-repeat center center fixed; /* Image de fond centrée et fixe */
+    background-size: cover; /* L'image de fond couvre tout l'écran */
+    margin: 0; /* Pas de marge autour du corps */
+    padding: 0; /* Pas de remplissage autour du corps */
+    color: white; /* Couleur du texte par défaut */
+}
+
+/* Conteneur principal pour centrer le contenu */
+.container {
+    text-align: center; /* Centre le texte à l'intérieur du conteneur */
+    padding: 50px; /* Espace intérieur autour du contenu */
+}
+
+/* Style pour l'en-tête principal */
+.header {
+    font-size: 2em; /* Taille de la police pour l'en-tête */
+    margin-bottom: 20px; /* Espace sous l'en-tête */
+}
+
+/* Style pour le sous-en-tête */
+.subheader {
+    font-size: 1em; /* Taille de la police pour le sous-en-tête */
+    margin-bottom: 30px; /* Espace sous le sous-en-tête */
+    color: #b7c3c6; /* Couleur du texte du sous-en-tête */
+}
+
+/* Conteneur pour les témoignages */
+.testimonials {
+    display: flex; /* Utilise flexbox pour un alignement flexible */
+    justify-content: center; /* Centre les témoignages horizontalement */
+    gap: 20px; /* Espace entre chaque témoignage */
+}
+
+/* Style pour chaque témoignage */
+.testimonial {
+    background: rgba(255, 255, 255, 0.9); /* Fond blanc semi-transparent */
+    border-radius: 15px; /* Coins arrondis pour un aspect doux */
+    padding: 20px; /* Espace intérieur autour du texte */
+    width: 300px; /* Largeur fixe pour chaque témoignage */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre pour donner de la profondeur */
+    color: black; /* Couleur du texte pour les témoignages */
+    text-align: center; /* Centre le texte à l'intérieur du témoignage */
+}
+
+/* Styles pour l'image du client */
+.testimonial img {
+    border-radius: 60%; /* Arrondit l'image pour un effet circulaire */
+    width: 250px; /* Largeur fixe pour l'image du client */
+    height: 250px; /* Hauteur fixe pour l'image du client */
+    object-fit: cover; /* Coupe l'image pour qu'elle remplisse l'espace sans déformation */
+}
+
+/* Styles pour les étoiles de notation */
+.stars {
+    margin: 10px 0; /* Marge verticale autour des étoiles */
+}
+
+/* Styles pour chaque étoile */
+.stars span {
+    color: orange; /* Couleur des étoiles */
+    font-size: 1.2em; /* Taille de la police pour les étoiles */
+}
+
+/* Styles pour le nom de l'auteur du témoignage */
+.name {
+    font-weight: bold; /* Met le nom en gras */
+    margin-top: 15px; /* Espace au-dessus du nom */
+}

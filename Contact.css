@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif; /* Police de caractères utilisée pour le texte */
+    background-color: #e8eced; /* Couleur de fond de la page */
+    margin: 0; /* Supprime les marges par défaut du body */
+    padding: 0; /* Supprime le rembourrage par défaut du body */
+    height: 100vh; /* Prend toute la hauteur de la fenêtre */
+    overflow: hidden; /* Empêche le défilement si le contenu dépasse */
+}
+
+.container {
+    padding: 50px; /* Rembourrage autour du contenu de la conteneur */
+    display: flex; /* Utilise Flexbox pour la mise en page */
+    justify-content: space-between; /* Espace entre les éléments enfants */
+}
+
+.contact, .subscribe {
+    width: 45%; /* Définit la largeur des sections de contact et d'inscription */
+}
+
+.contact h2, .subscribe h2 {
+    font-size: 1.5em; /* Taille de police pour les titres des sections */
+}
+
+.subscribe input[type="email"] {
+    width: 100%; /* Prend toute la largeur disponible */
+    padding: 10px; /* Rembourrage interne de l'input */
+    margin: 10px 0; /* Marge externe entre les éléments */
+    border: none; /* Supprime la bordure par défaut */
+    border-radius: 5px; /* Arrondit les coins de l'input */
+}
+
+.subscribe button {
+    padding: 10px 20px; /* Rembourrage interne du bouton */
+    background-color: orange; /* Couleur de fond du bouton */
+    border: none; /* Supprime la bordure par défaut du bouton */
+    border-radius: 5px; /* Arrondit les coins du bouton */
+    color: white; /* Couleur du texte du bouton */
+    font-size: 1em; /* Taille de police pour le texte du bouton */
+    cursor: pointer; /* Change le curseur pour indiquer que c'est cliquable */
+}
+
+.footer {
+    text-align: center; /* Centre le texte dans le footer */
+    padding: 20px; /* Rembourrage interne du footer */
+    background-color: #1a0503; /* Couleur de fond du footer */
+    position: absolute; /* Positionne le footer en bas de la page */
+    bottom: 0; /* Aligne le footer en bas de la fenêtre */
+    width: 100%; /* Prend toute la largeur du viewport */
+}
+
+.footer p {
+    margin: 5px 0; /* Marge externe pour les paragraphes du footer */
+    color: white; /* Couleur du texte dans le footer */
+}
+
+.footer a {
+    color: white; /* Couleur des liens dans le footer */
+    margin: 0 20px; /* Marge externe entre les liens */
+    text-decoration: none; /* Supprime la décoration de soulignement des liens */
+}
