@@ -1,14 +1,15 @@
 /* Style global du corps de la page */
 body {
-    font-family: Arial, sans-serif; /* Police de caractères utilisée */
-    margin: 0; /* Supprime les marges par défaut */
-    padding: 0; /* Supprime les espacements par défaut */
+    font-family: Arial, sans-serif; /* Police de la page */
+    background: url('g1.PNG') no-repeat center center fixed; /* Image de fond centrée et fixe */
+    background-size: cover; /* L'image de fond couvre tout l'écran */
+    margin: 0; /* Pas de marge autour du corps */
+    padding: 0; /* Pas de remplissage autour du corps */
 }
 
 /* Style pour la section "à propos" */
 section#apropos {
     padding: 20px; /* Espacement interne */
-    background-color: #f8f8f8; /* Couleur de fond */
     text-align: center; /* Centre le texte */
 }
 
