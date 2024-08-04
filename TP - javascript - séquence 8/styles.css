@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif; /* Police du corps */
+    margin: 20px; /* Marge autour du corps */
+}
+
+form {
+    background: #f9f9f9; /* Couleur de fond du formulaire */
+    padding: 20px; /* Espacement intérieur du formulaire */
+    border: 1px solid #ccc; /* Bordure du formulaire */
+    border-radius: 5px; /* Coins arrondis du formulaire */
+}
+
+label {
+    display: block; /* Affiche les labels comme des blocs */
+    margin-bottom: 5px; /* Marge inférieure pour l'espacement */
+}
+
+input {
+    width: 100%; /* Largeur du champ à 100% */
+    padding: 10px; /* Espacement intérieur des champs */
+    margin-bottom: 10px; /* Marge inférieure pour l'espacement */
+    border: 1px solid #ccc; /* Bordure des champs */
+    border-radius: 4px; /* Coins arrondis des champs */
+}
+
+input:focus {
+    border-color: #007bff; /* Bordure bleue au focus */
+}
+
+.error-message {
+    color: red; /* Couleur rouge pour les messages d'erreur */
+    font-size: 0.875em; /* Taille de police pour les messages d'erreur */
+}

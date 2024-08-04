@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Lien vers le fichier CSS -->
+    <title>Gestion de Projet - Fabrication de Jouets</title>
+</head>
+<body>
+    <header>
+        <h1>Gestion de Projet pour la Fabrication de Jouets</h1> <!-- Titre principal -->
+    </header>
+    <main>
+        <section id="projectManagement">
+            <h2>Gestion de Projet</h2> <!-- Titre de la section -->
+            <form id="projectForm"> <!-- Formulaire pour ajouter un projet -->
+                <label for="projectName">Nom du projet :</label>
+                <input type="text" id="projectName" name="projectName" required>
+                <label for="startDate">Date de début :</label>
+                <input type="date" id="startDate" name="startDate" required>
+                <label for="endDate">Date de fin prévue :</label>
+                <input type="date" id="endDate" name="endDate" required>
+                <button type="submit">Ajouter le projet</button> <!-- Bouton pour soumettre le formulaire -->
+            </form>
+            <ul id="projectList"></ul> <!-- Liste pour afficher les projets ajoutés -->
+        </section>
+        <section id="bomOptimization">
+            <h2>Optimisation du BOM</h2> <!-- Titre de la section -->
+            <button id="measurePerformance">Mesurer les performances</button> <!-- Bouton pour mesurer les performances -->
+            <div id="performanceResults"></div> <!-- Div pour afficher les résultats de performance -->
+        </section>
+    </main>
+    <script src="app.js"></script> <!-- Lien vers le fichier JavaScript -->
+</body>
+</html>

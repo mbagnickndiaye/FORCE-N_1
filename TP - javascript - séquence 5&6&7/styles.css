@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif; /* Police de caractère pour le corps */
+    line-height: 1.6; /* Hauteur de ligne pour une meilleure lisibilité */
+    margin: 0; /* Supprimer les marges par défaut */
+    padding: 0; /* Supprimer les remplissages par défaut */
+    background-color: #f4f4f4; /* Couleur de fond */
+}
+
+header {
+    background: #333; /* Couleur de fond de l'en-tête */
+    color: #fff; /* Couleur du texte de l'en-tête */
+    padding: 1em 0; /* Remplissage pour l'en-tête */
+    text-align: center; /* Centrer le texte */
+}
+
+main {
+    padding: 1em; /* Remplissage pour le corps principal */
+}
+
+h2 {
+    color: #333; /* Couleur du texte pour les sous-titres */
+}
+
+form label {
+    display: block; /* Afficher les labels en bloc */
+    margin-top: 1em; /* Marge au-dessus des labels */
+}
+
+form input {
+    display: block; /* Afficher les entrées en bloc */
+    width: 100%; /* Largeur des entrées */
+    padding: 0.5em; /* Remplissage des entrées */
+    margin-top: 0.5em; /* Marge au-dessus des entrées */
+}
+
+form button {
+    display: block; /* Afficher le bouton en bloc */
+    margin-top: 1em; /* Marge au-dessus du bouton */
+    padding: 0.5em 2em; /* Remplissage du bouton */
+    background: #333; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none; /* Pas de bordure */
+    cursor: pointer; /* Changer le curseur lors du survol */
+}
+
+form button:hover {
+    background: #555; /* Couleur de fond du bouton au survol */
+}
+
+ul {
+    list-style-type: none; /* Supprimer les puces de la liste */
+    padding: 0; /* Supprimer le remplissage de la liste */
+}
+
+li {
+    background: #fff; /* Couleur de fond des éléments de liste */
+    margin: 0.5em 0; /* Marge entre les éléments de liste */
+    padding: 0.5em; /* Remplissage des éléments de liste */
+    border: 1px solid #ccc; /* Bordure des éléments de liste */
+}
