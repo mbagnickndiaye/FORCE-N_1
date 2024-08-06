@@ -1,0 +1,74 @@
+/* Importation des polices Google */
+@import url('https://fonts.googleapis.com/css2?family=Ewert&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900&display=swap');
+
+/* Style général du corps de la page */
+body {
+    font-family: 'Merriweather', serif;
+}
+
+/* Style de la marque dans la barre de navigation */
+.navbar-brand {
+    font-family: 'Ewert', cursive;
+}
+
+/* Style des liens dans la barre de navigation */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,0.75);
+    transition: color 0.2s ease-in-out;
+}
+
+/* Effet de survol des liens dans la barre de navigation */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255,1);
+}
+
+/* Style de la section de la bannière */
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Image_garde.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Style du texte dans la bannière */
+.banner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+/* Style des boutons de commande */
+.btn-order {
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/* Effet de survol et état actif des boutons de commande */
+.btn-order:hover,
+.btn-order:active {
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+/* Section de réservation */
+.reservation {
+    padding: 60px 0; /* Espace en haut et en bas de la section */
+}
+
+h2 {
+    font-size: 2.5rem; /* Taille de la police pour le titre */
+    color: #333; /* Couleur du texte */
+    margin-bottom: 40px; /* Marge en bas du titre */
+}
+
+/* Styles pour le formulaire */
+.form-label {
+    font-weight: bold; /* Texte des étiquettes en gras */
+}
+
+.form-control {
+    border-radius: 5px; /* Coins arrondis pour les champs de formulaire */
+}

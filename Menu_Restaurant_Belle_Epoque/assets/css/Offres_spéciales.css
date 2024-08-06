@@ -1,0 +1,102 @@
+/* Importation des polices Google */
+@import url('https://fonts.googleapis.com/css2?family=Ewert&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900&display=swap');
+
+/* Style général du corps de la page */
+body {
+    font-family: 'Merriweather', serif;
+}
+
+/* Style de la marque dans la barre de navigation */
+.navbar-brand {
+    font-family: 'Ewert', cursive;
+}
+
+/* Style des liens dans la barre de navigation */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,0.75);
+    transition: color 0.2s ease-in-out;
+}
+
+/* Effet de survol des liens dans la barre de navigation */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255,1);
+}
+
+/* Style de la section de la bannière */
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Image_garde.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Style du texte dans la bannière */
+.banner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+/* Style des boutons de commande */
+.btn-order {
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/* Effet de survol et état actif des boutons de commande */
+.btn-order:hover,
+.btn-order:active {
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+
+/* Style pour la section des offres spéciales */
+.special-offers {
+    background-color: #f9f9f9; /* Couleur de fond */
+    padding: 60px 0; /* Espacement vertical */
+    font-family: 'merriweather', serif; /* Utilisation de la police 'merriweather' */
+}
+/* Style pour le titre de la section des offres spéciales */
+.special-offers h2 {
+    font-family: 'ewert', cursive; /* Utilisation de la police 'ewert' */
+    font-size: 36px; /* Taille de la police */
+    margin-bottom: 40px; /* Espace inférieur */
+    color: #333; /* Couleur du texte */
+}
+
+/* Style pour les cartes des offres spéciales */
+.special-offers .card {
+    border: none; /* Suppression des bordures */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    transition: transform 0.2s; /* Transition pour l'effet de survol */
+}
+
+/* Effet de survol pour les cartes */
+.special-offers .card:hover {
+    transform: translateY(-10px); /* Déplacement vers le haut */
+}
+
+/* Style pour les images des cartes */
+.special-offers .card-img-top {
+    border-top-left-radius: 10px; /* Coin supérieur gauche arrondi */
+    border-top-right-radius: 10px; /* Coin supérieur droit arrondi */
+}
+
+/* Style pour le titre des cartes */
+.special-offers .card-title {
+    font-size: 24px; /* Taille de la police */
+    margin-bottom: 15px; /* Espace inférieur */
+    color: #333; /* Couleur du texte */
+}
+
+/* Style pour le texte des cartes */
+.special-offers .card-text {
+    font-size: 16px; /* Taille de la police */
+    color: #666; /* Couleur du texte */
+    margin-bottom: 20px; /* Espace inférieur */
+}
