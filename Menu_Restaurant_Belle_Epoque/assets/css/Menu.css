@@ -77,9 +77,9 @@ body {
 /* Cartes de plats, boissons et desserts */
 .card {
     border: none; /* Enlever la bordure par défaut des cartes */
-    border-radius: 10px; /* Coins arrondis */
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Ombre autour des cartes */
-    transition: transform 0.3s; /* Transition pour l'animation */
+   border-radius: 10px; /* Coins arrondis */
+   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Ombre autour des cartes */
+   transition: transform 0.3s; /* Transition pour l'animation */
 }
 
 .card:hover {
@@ -111,3 +111,4 @@ body {
     color: #28a745; /* Couleur verte pour le prix */
     margin-bottom: 15px; /* Marge en bas du prix */
 }
+
